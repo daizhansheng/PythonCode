@@ -1,0 +1,3 @@
+import moduleA
+
+moduleA.showA()
