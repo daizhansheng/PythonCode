@@ -12,4 +12,3 @@ def read_file(filename):
 if __name__ == '__main__':
      write_file("hello.txt")
      print(read_file("hello.txt"))
-
