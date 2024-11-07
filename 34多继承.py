@@ -41,7 +41,7 @@ s = Son("张三", 20, "M")
 
 # 打印出 s 对象的所有属性和方法
 print(dir(s))
-
+# print(Son.__mro__)
 # 调用 s 对象的 show 方法
 # 因为 Mother 和 Father 都有 show 方法，Python 会按顺序解析，调用 Mother 的 show 方法
 s.show()
