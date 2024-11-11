@@ -10,6 +10,8 @@ if __name__ == "__main__":
     p = MyClass.from_bytes(ba)
     p.name_show()
     p.age_show()
+
+    del ba
     try:
         shm.close()
         shm.unlink()
